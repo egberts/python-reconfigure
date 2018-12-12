@@ -14,7 +14,7 @@ class BIND9ParserCommentTest (unittest.TestCase):
     print(dir(self.parser.tokens[7]))
     token_tuple = self.parser.tokens[7]
     token_list = list(token_tuple)
-    token_list[0] = '\/\/([^\n]*\n*)'
+    token_list[0] = r'\/\/([^\n]*\n*)'
     token_tuple = tuple(token_list)
     #self.parser.tokens[7] = token_tuple
 
