@@ -1,20 +1,10 @@
-.. _Parsers:
+.. _Nodes:
 
-Examples of reconfigure.parsers
-*******************************
+Examples of reconfigure.Nodes
+*****************************
 
-Parsers (:class:`reconfigure.parsers`) is a base class that will process string
-content.  Parsers have several subclasses available:
-
-* BIND9 (:class:`reconfigure.parsers.BIND9Parser`)
-* crontab (:class:`reconfigure.parsers.CrontabParser`)
-* exports (:class:`reconfigure.parsers.ExportsParser`)
-* iptables (:class:`reconfigure.parsers.IPtablesParser`)
-* JSON (:class:`reconfigure.parsers.JsonParser`)
-* NGINX web server (:class:`reconfigure.parsers.NginxParser`)
-* NSD DNS server (:class:`reconfigure.parsers.NSDParser`)
-* Shell (:class:`reconfigure.parsers.ShellParser`)
-* Space-separated value (SSV) (:class:`reconfigure.parsers.SSVParser`)
+Parsers (:class:`reconfigure.Nodes`) is a base class that will process string
+content.
 
 
 Space-Separated Value (SSV) Parser
