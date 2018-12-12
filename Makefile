@@ -85,6 +85,7 @@ distclean: clean
 	find src -name "__pycache__" -exec rm -rf {} \;
 	rm -rf dist/docs
 	rm -rf dist/reconfigure-2.0.0-py*
+	rm -rf htmlcov
 
 clean:
 	$(PYTHON) setup.py clean
